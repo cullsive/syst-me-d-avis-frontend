@@ -1,0 +1,236 @@
+/* ----------------------------------------------------------------- */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #e6e6e6;
+    overflow: hidden;
+}
+
+.entre_box{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    background: rgb(255, 255, 255);
+   width: clamp(250px, 70vw, 400px);
+  box-shadow: 15px 15px 30px #d6d6d6, -15px -15px 30px #e0e0e0;
+    height: auto;
+    margin: auto;
+    transform: translateY(15rem);
+    border-radius: 8px;
+          font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  border: 3px solid rgb(226, 225, 225);
+  
+}
+
+.bas{
+    margin-bottom: 5px;
+    outline: none;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+}
+
+#envoye{
+    margin: 10px auto;
+    background: rgb(0, 0, 0);
+    width: 20%;
+    border-radius: 7px;
+    padding: 5px;
+    width: clamp(60px, 70vw, 150px);
+    height: clamp(30px, 60vw, 40px);
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+    border:  2px solid white;
+}
+
+#entre1,#entre3{
+height: 45px;
+border: 2px solid white;
+background: #ebebebe3;
+font-size: 15px;
+
+}
+
+.entre_box h2{
+margin: auto;
+padding: 5px 15px;
+background: #e0e0e0;
+font-size: 22px;
+border-radius: 5px;
+box-shadow: 10px 10px 20px #ebebeb , -10px -10px 20px #ebebeb;
+border: 1px solid white;
+}
+#message {
+    resize: none;
+    outline: none;
+    padding: 10px;
+    font-size: 15px;
+    border: 2px solid white;
+background: #ebebebe3;
+border-radius: 8px;
+margin-bottom: 5px;
+}
+
+
+#envoye:hover{
+border: 2px solid #000000;
+}
+
+#entre1, #message, #entre3 {
+    border: 2px solid transparent;
+    transition: border 0.25s ease;
+}
+
+#entre1:hover,
+#message:hover,
+#entre3:hover {
+    border-color: #e0e0e0;
+}
+
+#entre1:focus,
+#message:focus,
+#entre3:focus {
+    border-color: #e0e0e0;
+}
+
+/* //--------------------------------------------------------------- */
+
+.page_avis{
+   z-index: 2;
+    visibility : hidden; 
+    background: rgb(252, 252, 252);
+     width: clamp(250px, 70vw, 400px);
+      height: auto;
+    margin: auto;
+    transform: translateY(25rem);
+    padding: 10px 20px;
+    border-radius: 8px;
+    
+}
+
+.div-svg,#name, #container{
+    margin-bottom: 5px;
+}
+
+#container{
+    opacity: 0.5;
+}
+.bacdok{
+    position: fixed;
+z-index: 100;
+  background: rgba(29, 29, 29, 0.473);
+  height: auto;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  align-content: center;
+  visibility: hidden;
+}
+.loader {
+  width: 54px;
+  height: 54px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 100;
+  margin: auto
+}
+
+.loader div {
+  width: 8%;
+  height: 24%;
+  background: rgb(255, 255, 255);
+  position:absolute;
+  left: 50%;
+  top: 30%;
+  opacity: 0;
+  border-radius: 50px;
+  box-shadow: 0 0 3px rgba(0,0,0,0.2);
+  animation: fade458 1s linear infinite;
+}
+
+@keyframes fade458 {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0.25;
+  }
+}
+
+.loader .bar1 {
+  transform: rotate(0deg) translate(0, -130%);
+  animation-delay: 0s;
+}
+
+.loader .bar2 {
+  transform: rotate(30deg) translate(0, -130%);
+  animation-delay: -1.1s;
+}
+
+.loader .bar3 {
+  transform: rotate(60deg) translate(0, -130%);
+  animation-delay: -1s;
+}
+
+.loader .bar4 {
+  transform: rotate(90deg) translate(0, -130%);
+  animation-delay: -0.9s;
+}
+
+.loader .bar5 {
+  transform: rotate(120deg) translate(0, -130%);
+  animation-delay: -0.8s;
+}
+
+.loader .bar6 {
+  transform: rotate(150deg) translate(0, -130%);
+  animation-delay: -0.7s;
+}
+
+.loader .bar7 {
+  transform: rotate(180deg) translate(0, -130%);
+  animation-delay: -0.6s;
+}
+
+.loader .bar8 {
+  transform: rotate(210deg) translate(0, -130%);
+  animation-delay: -0.5s;
+}
+
+.loader .bar9 {
+  transform: rotate(240deg) translate(0, -130%);
+  animation-delay: -0.4s;
+}
+
+.loader .bar10 {
+  transform: rotate(270deg) translate(0, -130%);
+  animation-delay: -0.3s;
+}
+
+.loader .bar11 {
+  transform: rotate(300deg) translate(0, -130%);
+  animation-delay: -0.2s;
+}
+
+.loader .bar12 {
+  transform: rotate(330deg) translate(0, -130%);
+  animation-delay: -0.1s;
+}
+
+
+
