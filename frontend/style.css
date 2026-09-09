@@ -25,7 +25,9 @@ body{
   box-shadow: 15px 15px 30px #d6d6d6, -15px -15px 30px #e0e0e0;
     height: auto;
     margin: auto;
-     margin-top: 10vh;
+
+margin-top: clamp(5vh , 30vh , 20vh);
+
     border-radius: 8px;
           font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
