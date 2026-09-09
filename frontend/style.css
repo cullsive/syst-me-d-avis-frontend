@@ -25,9 +25,13 @@ body{
   box-shadow: 15px 15px 30px #d6d6d6, -15px -15px 30px #e0e0e0;
     height: auto;
     margin: auto;
+<<<<<<< HEAD
 
 margin-top: clamp(5vh , 30vh , 20vh);
 
+=======
+     margin-top: 5vh;
+>>>>>>> 6631bc2 (valide 2)
     border-radius: 8px;
           font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
